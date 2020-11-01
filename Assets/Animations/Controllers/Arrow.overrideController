@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Arrow
+  m_Controller: {fileID: 9100000, guid: 94cd9241e1cfe1742b0c337f885231a2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ef1b8e9a68c7330479353d8dfd2c8a7f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9c90ffc354cc304438249d00715221f1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 800cf5159959b0846bc9ded95bfd8226, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 800cf5159959b0846bc9ded95bfd8226, type: 2}

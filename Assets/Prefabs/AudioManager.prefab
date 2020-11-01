@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1772479845520524}
+  m_IsPrefabParent: 1
+--- !u!1 &1772479845520524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4830825622392504}
+  - component: {fileID: 114042295476230038}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4830825622392504
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1772479845520524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 574.9969, y: 239.23834, z: -11.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114042295476230038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1772479845520524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22817509a1ce19b44956943ddbde36ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 0}
+  sounds:
+  - SoundName: BgTheme1
+    clip: {fileID: 8300000, guid: 1e64b42cdd750584da014f65504d499a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - SoundName: BgTheme2
+    clip: {fileID: 8300000, guid: 4ae7b0d7794d6904d9372dfa9f131f0e, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - SoundName: MainMenu
+    clip: {fileID: 8300000, guid: 01b79c95c8bd23c478ec516c30f0c64a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - SoundName: TownTheme1
+    clip: {fileID: 8300000, guid: 12c7c2afa819ce645bd7bb311ae2becd, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - SoundName: TownTheme2
+    clip: {fileID: 8300000, guid: 275a6dfaca4e6f246bd8031f64ee7740, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - SoundName: MenuSound
+    clip: {fileID: 8300000, guid: b4d6434bcd8d0b347a2645c257555257, type: 3}
+    volume: 0.662
+    pitch: 0.67
+    source: {fileID: 0}
+    loop: 0
+  - SoundName: PlayerDeath
+    clip: {fileID: 8300000, guid: 1670f475b33a22245864942d4429ba29, type: 3}
+    volume: 0.892
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - SoundName: PlayerHit
+    clip: {fileID: 8300000, guid: 82d1ad46154d73844853c28baa455671, type: 3}
+    volume: 0.759
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - SoundName: EnemyDeath
+    clip: {fileID: 8300000, guid: 276dfb2fdf06f8740a7e20b8eb0ed2ff, type: 3}
+    volume: 0.59
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - SoundName: TextSound
+    clip: {fileID: 8300000, guid: 80c9de386f5ad8840b2f99a7dd01fefd, type: 3}
+    volume: 0.201
+    pitch: 3
+    source: {fileID: 0}
+    loop: 0
+  - SoundName: Victory
+    clip: {fileID: 8300000, guid: 80c9de386f5ad8840b2f99a7dd01fefd, type: 3}
+    volume: 0.201
+    pitch: 3
+    source: {fileID: 0}
+    loop: 0
